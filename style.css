@@ -12,3 +12,18 @@ h2 {
   border-style: double;
   border-color: grey;
 }
+
+.cuadricula {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 320px;
+  height: 320px;
+  margin: 10px auto;
+}
+
+.topo {
+  background-image: url("images/topo.jpg");
+  background-size: cover;
+}
